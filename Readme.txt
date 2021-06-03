@@ -1,6 +1,6 @@
 Welcome to my challenge, I completed the challenge plus the first 4 bonus points using Pythons Django framework.
 
-Please make sure you have the latest python version installed, I created this using Python 3.9.5.
+Please make sure to have the latest python version installed, I used Python 3.9.5.
 
 Pull the code, or download the zip. 
 
@@ -10,7 +10,7 @@ Here are some guides to help you create your virtual environments.
 Windows users guide: https://docs.python.org/3/library/venv.html
 Mac users guide: https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
-To get the necessary dependencies run: install -r requirements.txt in the main directory.
+To get the necessary dependencies run: pip install -r requirements.txt in the main directory.
 
 To start the server run: py manage.py runserver
 
