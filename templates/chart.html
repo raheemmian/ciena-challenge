@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+    {% load static %}
+    <link href="{% static 'chart.css' %}" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="home" onclick="location.href='http://127.0.0.1:8000'">Home</button>
+    <button class="convert" onclick="convert(myChart, obj)">Convert nm <-> THz</button>
+    <button class="save" onclick="saveim()">Saveimage</button>
+    <canvas id="myChart" width=500 height=250></canvas>
+    <script>
+        var x = JSON.parse("{{xdata|safe}}");
+        var y = JSON.parse("{{ydata|safe}}");
+        var xunits = "{{xunits|safe}}";
+        var yunits = "{{yunits|safe}}";
+        var xlabel = "{{xlabel|safe}}"
+        var ylabel = "{{ylabel|safe}}"
+        var timestamp = "{{time|safe}}";
+    </script>
+    {% load static %}
+    <script src="{% static 'chart.js' %}"></script>
+</body>
+
+</html>

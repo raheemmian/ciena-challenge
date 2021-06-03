@@ -1,0 +1,16 @@
+.home {
+    position: absolute;
+    top: 5;
+    left: 10px;
+}
+.convert {
+    position: absolute;
+    top: 5;
+    left:65px;
+}
+.save {
+    position: absolute;
+    top: 5;
+    left: 205px;
+
+}
