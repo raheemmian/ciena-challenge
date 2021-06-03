@@ -5,8 +5,7 @@ Please make sure to have the latest python version installed, I used Python 3.9.
 Pull the code, or download the zip. 
 
 Create and activate your virtual environment:
-
-Here are some guides to help you create your virtual environments.
+Here are some relevant guides.
 Windows users guide: https://docs.python.org/3/library/venv.html
 Mac users guide: https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
 
